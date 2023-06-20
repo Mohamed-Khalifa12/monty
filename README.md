@@ -23,3 +23,13 @@
     * This document includes an `'execute'` function whose purpose is to compare a predefined function with the inputted function from the `'.m'` file and execute it accordingly.
 - main.c 
     * In the main file, we open the `'.m'` file and sequentially read its contents line by line, executing each line along with its corresponding operation.
+- pint.c
+    * This document contains a `'pint'` function that is responsible for printing the top element of the stack.
+- pop.c
+    * This document includes a `'pop'` function whose purpose is to eliminate the top element from the stack.
+- swap.c
+    * "This file contains a `'swap'` function that is designed to interchange the positions of the top two elements in the stack.
+- add.c 
+    * In this file, we have an `'add'` function that is responsible for summing the top two elements in the stack.
+- nop.c
+    * This file includes a `'nop'` function that serves the purpose of performing no action or having no effect.
