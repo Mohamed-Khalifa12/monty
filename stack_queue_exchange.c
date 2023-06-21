@@ -6,11 +6,11 @@
  * @counter: line_number
  * Return: no return
 */
-void stack(stack_t **head, unsigned int counter)
+void f_stack(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
-	bus.type = 0;
+	bus.lifi = 0;
 }
 
 /**
@@ -19,9 +19,9 @@ void stack(stack_t **head, unsigned int counter)
  * @counter: line_number
  * Return: no return
 */
-void queue(stack_t **head, unsigned int counter)
+void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
-	bus.type = 1;
+	bus.lifi = 1;
 }
