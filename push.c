@@ -38,7 +38,7 @@ void push(stack_t **head, unsigned int counter)
     
 	n = atoi(bus.arg);
 	if (bus.type == 0)
-		addnode(head, n);
+		addstackNode(head, n);
 	else
-		addqueue(head, n);
+		addqueueNode(head, n);
 }
