@@ -6,7 +6,7 @@
  * @n: new_value
  * Return: no return
 */
-void addstackNode(stack_t **head, int n)
+void addnode(stack_t **head, int n)
 {
 
 	stack_t *new_node, *aux;
@@ -31,7 +31,7 @@ void addstackNode(stack_t **head, int n)
  * @head: head of the stack
  * Return: no return
 */
-void addqueueNode(stack_t **head, int n)
+void addqueue(stack_t **head, int n)
 {
 	stack_t *new_node, *aux;
 
